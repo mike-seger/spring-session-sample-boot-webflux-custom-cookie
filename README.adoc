@@ -4,8 +4,8 @@ This is a sample derived from:
 https://github.com/spring-projects/spring-session
 
 There seems to be no supported, documented or easy way to override the session cookie name created by spring security.
-The method to achieve a custom cookie here involves overriding Spring classes and spring-session-data-redis classes
-in a non-sustainable manner without actually using a redis server.
+The method to achieve a custom cookie here involves overriding spring-session-data-redis classes in a non-sustainable
+manner without actually using a redis server.
 
 Nevertheless this method allows choosing a custom cookie name until Spring provides a solution.
 
